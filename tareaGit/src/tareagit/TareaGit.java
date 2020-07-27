@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tareagit;
+
+import org.w3c.dom.traversal.NodeFilter;
 
 /**
  *
- * @author bladimir
+ * @author Bladimir
  */
 public class TareaGit {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // llamada al metodo que muestra la ventana del proyecto
+        vistaADN ir =new vistaADN();
+        ir.show();
     }
     
 }
