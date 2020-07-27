@@ -20,6 +20,7 @@ public class Logica {
                 }
             }
         }
+        
         System.out.println("el codigo es");
         System.out.println(""+solucion);  
         return solucion;
