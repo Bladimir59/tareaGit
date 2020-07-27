@@ -116,7 +116,8 @@ public class vistaADN extends javax.swing.JFrame {
         String ADN2;
         ADN1=jTextField1.getText();
         ADN2=jTextField2.getText();
-        jTextArea1.setText(ADN1+""+ADN2);
+        llamar.Logica(ADN1, ADN2);
+        jTextArea1.setText(llamar.solucion);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
