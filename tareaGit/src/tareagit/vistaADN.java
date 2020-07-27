@@ -125,18 +125,22 @@ public class vistaADN extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // llamada a los metodo que funcionaran 
+        // llamada a los metodo que funcionaran para solucion de logicas
         Logica llamar=new Logica();
+        //definicion de varibles no necesarias pero para entender el problema
+        //que se guardan los datos momentaneamente
         String ADN1;
         String ADN2;
         ADN1=jTextField1.getText();
         ADN2=jTextField2.getText();
+        //llamada al metodo de solucion 
         llamar.Logica(ADN1, ADN2);
+        //llamar a la solucion que esta en la clase logica llamada solucion
         jTextArea1.setText(llamar.solucion);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        // limpia todo los espacios de la pantalla principal
         jTextArea1.setText(" ");
         jTextField1.setText(" ");
         jTextField2.setText(" ");
