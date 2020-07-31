@@ -136,7 +136,8 @@ public class vistaADN extends javax.swing.JFrame {
         //llamada al metodo de solucion 
         llamar.Logica(ADN1, ADN2);
         //llamar a la solucion que esta en la clase logica llamada solucion
-        jTextArea1.setText(llamar.solucion);
+        //aqui necesito tu ayuda gordo
+//jTextArea1.setText(llamar.solucion);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

@@ -6,9 +6,10 @@ import jdk.nashorn.internal.objects.NativeString;
  * @author Bladimir
  */
 public class Logica {
-    public String solucion;
-    public void Logica(String cadena1,String cadena2){
+    //public String solucion;
+    public String Logica(String cadena1,String cadena2){
         //variable para la solucion
+        String solucion;
         solucion=" ";
         //matriz que genera para tomar toda las combinaciones de palabras
         String todasCompuestas[][];       
@@ -31,6 +32,7 @@ public class Logica {
         }
         
         System.out.println("el codigo es");
-        System.out.println(""+solucion);  
+        System.out.println(""+solucion);
+        return solucion;
     }   
 }
